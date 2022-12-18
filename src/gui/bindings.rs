@@ -349,26 +349,26 @@ pub static BINDINGS: Lazy<Vec<Category>> = Lazy::new(|| {
             entries: vec![
                 Entry {
                     id: MoveToWorkspaceBelow,
-                    label: "Move To Workspace Below",
+                    label: "Move To Workspace Left",
                     binding: vec![Op::key(
                         true,
-                        vec![Const(MOD_Ctrl | MOD_Super), Const(KEY_Down)],
+                        vec![Const(MOD_Ctrl | MOD_Alt), Const(KEY_Left)],
                     )],
-                    keybind: Some("Ctrl+Super+Down"),
+                    keybind: Some("Ctrl+Alt+Left"),
                 },
                 Entry {
                     id: MoveToWorkspaceAbove,
-                    label: "Move To Workspace Above",
+                    label: "Move To Workspace Right",
                     binding: vec![Op::key(
                         true,
-                        vec![Const(MOD_Ctrl | MOD_Super), Const(KEY_Up)],
+                        vec![Const(MOD_Ctrl | MOD_Alt), Const(KEY_Right)],
                     )],
-                    keybind: Some("Ctrl+Super+Up"),
+                    keybind: Some("Ctrl+Alt+Right"),
                 },
                 Entry {
                     id: WorkspacesOverview,
                     label: "Workspaces Overview",
-                    binding: vec![Op::key(true, vec![Const(MOD_Super), Const(KEY_D)])],
+                    binding: vec![Op::key(true, vec![Const(MOD_Super)])],
                     keybind: Some("Ctrl+D"),
                 },
                 Entry {
