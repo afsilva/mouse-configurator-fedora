@@ -1,5 +1,5 @@
 # mouse-configurator-fedora
-Configurator for HP 935 Creator Wireless Mouse
+Configurator for HP 930 Creator Wireless Mouse
 
 Compiling this on Fedora 37, you will need to install the following:
 
